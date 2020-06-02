@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+}
+
+div{
+    margin-left: 10px;
+}
+
+#loginSubmit{
+    margin-left: 10px;
+    margin-top: 5px
+}

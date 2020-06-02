@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <P>The click information show below: </p>
+    <P id = "clickedInfo"></p>
+    <button type="button" id = "button1">button1</button>
+    <button type="button" id = "button2">button2</button>
+
+    <h1 id = "checkHovered" style = "margin-left: 500px"> Don't hover over me </h1>
+
+    <h2>The input element</h2>
+    
+    <div id = "login">
+        <form>
+            <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" />
+            </div>
+            <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+            </div>
+            <div>  
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+            </div>
+            <input type="submit" value="Submit" id="loginSubmit" />
+            <br><br><br><br><br><br>
+        </form>
+
+    </div> 
+     
+    <div> 
+        <form>
+            <p>Enter a sphere's radius and get its volume </p> 
+            <label for="radius">Sphere's radius:</label>
+            <input type="text" name="radius" id="radius" />
+            <input type="submit" value="Submit" id="radiusSubmit" />
+        </form>
+        <p id = "sphereV"></p>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
